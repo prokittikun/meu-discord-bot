@@ -1,0 +1,6 @@
+/node_modules
+/public/qr/*.png
+/dist
+
+.env
+.env*.local

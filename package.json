@@ -1,0 +1,23 @@
+{
+  "name": "mue-discord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "prokittikun",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/Bot.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "promptpay-qr": "^0.5.0",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/qrcode": "^1.5.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
