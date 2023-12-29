@@ -4,7 +4,7 @@ import * as qr from 'qrcode';
 
 export async function generateQRCode(data: string, outputPath: string): Promise<void> {
   try {
-    const qrCodeBuffer = await qr.toBuffer(data);
+    const qrCodeBuffer = await qr.toBuffer(data, {width: 550});
 
     const outputFolder = path.dirname(outputPath);
     if (!fs.existsSync(outputFolder)) {
